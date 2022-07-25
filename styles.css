@@ -1,9 +1,10 @@
 body {background-color: white;}
 
-img {
-  z-index: -1;
+.prz-wrapper {
+  position: relative;
+  z-index: 1;
 }
 
-img:hover {
-  z-index: 1;
+.prz-wrapper:hover {
+  z-index: 101;
 }
